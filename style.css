@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+.info {
+    display: flex;
+    gap: 24px;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    align-items: center;
+}
+
+.info dt {
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.info dd {
+    margin: 0;
+    font-size: 22px;
+}
+
+.separador {
+    border-left: 1px solid rgb(204, 41, 41);
+    padding-left: 24px;
+}
+
+.apresentacao {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.apresentacao h2 {
+    font-size: 100px;
+    text-align: center;
+}
+
+.workshops h2 {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px 20px;
+    width: fit-content;
+}
+
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    gap: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 220px;
+    gap: 10px;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 20px;
+    flex-shrink: 0;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
