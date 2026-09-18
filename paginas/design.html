@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design</title>
+    <link rel="stylesheet" href="./paginas.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=menu" />
+</head>
+<body>
+
+    <header>
+        <div>
+            <h1>WorkShop</h1>
+            <button id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </button>
+        </div>
+
+        <nav id="menu">
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="./design.html">Design</a></li>
+                <li><a href="">Artes Visuais</a></li>
+                <li><a href="">Audiovisual</a></li>
+                <li><a href="">Economia</a></li>
+                <li><a href="">Mercado de Trabalho</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="apresentacao">
+            <h2>Lorem ipsum, dolor sit amet consectetur </h2>
+        </section>
+
+       <section class="assunto">
+            <div class="assunto-card">
+                <span class="rotulo">assunto</span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea, labore modi. Vel officiis, nemo consequatur quaerat ipsam voluptate itaque exercitationem neque ipsum quisquam non molestiae, voluptas placeat commodi corrupti libero?</p>
+            </div>
+
+            <img class="assunto-img" src="/img/Design.png" alt="">
+        </section>
+
+
+        <section class="relatos">
+            <span class="rotulo">relato</span>
+            <h2>O que dizem sobre o assunto</h2>
+
+            <div class="relato-card">
+                <img class="avatar" src="/img/Design.png" alt="">
+                <p class="relato">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id doloremque non voluptate fugit dolor ullam excepturi quae! Amet minima autem odio accusamus cum hic. Esse, quam! Maxime in nihil quam?</p>
+                <p class="nome">Nome d pessoa</p>
+                <p class="profissao">Profissão</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto de Programação Web I para a Semana Midiática</p>
+        <p>Desenvolvido por: Marcio, Yuri, Denis, Gustavo, João e Felipe</p>
+    </footer>
+
+    <script>
+        function clickMenu() {
+         const menu = document.getElementById('menu');
+
+            if (menu.style.display == 'block') {
+                menu.style.display = 'none';
+            } else {
+                menu.style.display = 'block';
+            }
+        }
+
+    </script>
+
+</body>
+</html>
