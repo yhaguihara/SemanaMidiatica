@@ -67,19 +67,22 @@
     background: #f3f7f4;
     border: 2px solid #000000;
     object-fit: cover;
+    margin-bottom: 20px;
 }
 
 .relato {
     font-size: 18px;
     line-height: 1.4;
     margin-bottom: 20px;
+    font-style: italic;
 }
 
 .nome {
-    color: #000000;
+    font-weight: 700;
+    margin-bottom: 20px;
 }
 
 .profissao {
-    font-size: 14px;
+    font-size: 16px;
     color: #52796F;
 }

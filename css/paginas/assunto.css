@@ -1,37 +1,37 @@
 .assunto {
     display: flex;
     align-items: center;
-    gap: 220px;
-    max-width: 1350px;
+    gap: 180px;
+    max-width: 1450px;
     margin: 0 auto 125px;
 }
 
 .assunto-card {
     flex: 1;
-    padding: 34px 32px;
+    padding: 40px 38px;
     background: #FFFFFF;
     border: 2px solid #95D5B2;
     border-radius: 20px;
     box-shadow: 8px 8px 0 #B7E4C7;
-    transition: transform 0.2s ease;
+    transition: transform 0.4s ease;
 }
 
 .assunto-card:hover {
-    transform: scale(1.05);
+    transform: scale(1.20);
 }
 
 .assunto-img {
     flex: 1;
-    max-width: 420px;
-    height: 340px;
+    max-width: 580px;
+    height: auto;
     border-radius: 16px;
     background: #D8F3DC;
     object-fit: cover;
-    transition: transform 0.2s ease;
+    transition: transform 0.4s ease;
 }
 
 .assunto-img:hover {
-    transform: scale(1.05);
+    transform: scale(1.20);
 }
 
 .assunto p {
