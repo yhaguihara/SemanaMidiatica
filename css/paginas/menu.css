@@ -1,0 +1,39 @@
+header {
+    position: relative;
+    justify-content: space-between;
+}
+
+#burguer {
+    cursor: pointer;
+    background-color: #1B4332;
+    color: #ffffff;
+    border: none;
+    font-size: 42px;
+}
+
+#menu {
+    display: none;
+    position: absolute;
+    left: 30px;
+    top: 70px;
+    background: #1B4332;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu a {
+    display: block;
+    padding: 8px 12px;
+    color: #D8F3DC;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+#menu a:hover {
+    background: #2D6A4F;
+    border-radius: 5px;
+}

@@ -1,0 +1,53 @@
+.assunto {
+    display: flex;
+    align-items: center;
+    gap: 220px;
+    max-width: 1350px;
+    margin: 0 auto 125px;
+}
+
+.assunto-card {
+    flex: 1;
+    padding: 34px 32px;
+    background: #FFFFFF;
+    border: 2px solid #95D5B2;
+    border-radius: 20px;
+    box-shadow: 8px 8px 0 #B7E4C7;
+    transition: transform 0.2s ease;
+}
+
+.assunto-card:hover {
+    transform: scale(1.05);
+}
+
+.assunto-img {
+    flex: 1;
+    max-width: 420px;
+    height: 340px;
+    border-radius: 16px;
+    background: #D8F3DC;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.assunto-img:hover {
+    transform: scale(1.05);
+}
+
+.assunto p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.rotulo {
+    display: inline-block;
+    margin-bottom: 14px;
+    padding: 5px 14px;
+    border: 2px solid #1B4332;
+    border-radius: 50px;
+    font-size: 13px;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: #2D6A4F;
+}

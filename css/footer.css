@@ -1,0 +1,19 @@
+footer {
+    margin-top: 70px;
+    padding: 20px;
+    background: #1B4332;
+    color: #D8F3DC;
+    text-align: center;
+    box-shadow: 10px 10px 0 #74C69D;
+}
+
+footer p {
+    margin: 5px;
+    font-size: 14px;
+}
+
+footer p:first-child {
+    font-family: 'Fraunces', serif;
+    font-size: 18px;
+    color: #D8F3DC;
+}
