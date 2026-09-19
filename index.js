@@ -10,7 +10,7 @@ let posicao = 0;
 let larguraOriginal = track.scrollWidth / 2;
 
 function mover() {
-    posicao -= 0.5;
+    posicao -= 1.5;
 
     if (Math.abs(posicao) >= larguraOriginal) {
         posicao = 0;

@@ -15,6 +15,7 @@ header {
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     padding: 22px 30px;
     background: #1B4332;
     color: white;
@@ -29,19 +30,17 @@ header h1 {
 }
 
 #burguer {
-    position: absolute;
-    right: 30px;
-    top: 40px;
     cursor: pointer;
     background-color: #1B4332;
     color: #ffffff;
     border: none;
+    font-size: 42px;
 }
 
-#menu{
+#menu {
     display: none;
     position: absolute;
-    right: 30px;
+    left: 30px;
     top: 70px;
     background: #1B4332;
     padding: 10px;
@@ -96,6 +95,11 @@ header h1 {
     border: 2px solid #95D5B2;
     border-radius: 20px;
     box-shadow: 8px 8px 0 #B7E4C7;
+    transition: transform 0.2s ease;
+}
+
+.assunto-card:hover {
+    transform: scale(1.05);
 }
 
 .assunto-img {
@@ -105,6 +109,11 @@ header h1 {
     border-radius: 16px;
     background: #D8F3DC;
     object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.assunto-img:hover {
+    transform: scale(1.05);
 }
 
 .assunto p {
@@ -127,7 +136,7 @@ header h1 {
 }
 
 .relatos {
-    max-width: 640px;
+    max-width: 900px;
     margin: 0 auto 60px;
     text-align: center;
 }
@@ -139,13 +148,56 @@ header h1 {
     color: #1B4332;
 }
 
+.relato-carrossel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.relato-janela {
+    overflow: hidden;
+    width: 640px;
+}
+
+.relato-track {
+    display: flex;
+    transition: transform 0.3s ease;
+
+}
+
+
+.relato-bolinhas {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.bolinha {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 2px solid #1B4332;
+    background: transparent;
+    cursor: pointer;
+    padding: 0;
+}
+
+.bolinha.ativa {
+    background: #1B4332;
+}
+
 .relato-card {
     padding: 34px 32px;
     background: #FFFFFF;
     border: 2px solid #95D5B2;
     border-radius: 20px;
     box-shadow: 8px 8px 0 #B7E4C7;
+    width: 640px;
+    flex-shrink: 0;
 }
+
 
 .avatar {
     width: 100px;
@@ -153,7 +205,7 @@ header h1 {
     border-radius: 50%;
     background: #f3f7f4;
     border: 2px solid #000000;
-    
+    object-fit: cover;
 }
 
 .relato {
